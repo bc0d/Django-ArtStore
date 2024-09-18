@@ -71,3 +71,17 @@
     display: inline-block;
     padding: 5px;
 }
+
+.quantity {
+    margin: 0;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: bold;
+}
+
+.chg-quantity {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
