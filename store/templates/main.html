@@ -46,12 +46,12 @@
             return null;
         }
 
-        var cart = JSON.parse(getCookie(cart));
+        var cart = JSON.parse(getCookie('cart'));
         
         if(cart == undefined) {
             cart = {};
-            console.log('Cart created');
-            document.cookie = 'cart=' + JSON.stringify(cart) + ';domain=;path=/;SameSite=None;Secure';
+            console.log('Cart created.');
+            document.cookie = 'cart=' + JSON.stringify(cart) + ';domain=;path=/';
         }
 
         console.log('Cart: ', cart);
